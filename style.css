@@ -1,0 +1,88 @@
+:root {
+    --orange: rgb(255, 145, 0);
+    --orangee: rgb(255, 123, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    transform: translateY(7%);
+}
+
+h1 {
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.chillu {
+    color: rgb(255, 123, 0);
+    font-size: 4.7em;
+}
+
+bg__img--logo {
+    position: absolute;
+    text-align: center;
+    transform: translateX(700%);
+    width: 300px;
+}
+
+.tutaj {
+    text-align: center;
+    transform: translateY(0%);
+    font-size: 1.7em;
+}
+
+.butt {
+    transform: translateY(60%) translateX(1.75%);
+    text-align: center;
+}
+
+a {
+    color: transparent;
+}
+
+a:hover {
+    color: transparent;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: var(--orange) 3px solid;
+    padding: 15px 20px;
+    color: var(--orange);
+    font-size: 2.7rem;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 10px;
+    transition: color 0.7s, background 1s, box-shadow 1.3s;
+
+    text-shadow: 0 0 0.5em var(--orange);
+}
+
+button:hover,
+button:focus {
+    box-shadow: 0px 0px 100px 0px rgba(255, 145, 0, 0.555);
+    text-shadow: none;
+    background: var(--orange);
+    color: black;
+}
+
+.logo {
+    transform: translateX(9%);
+}
